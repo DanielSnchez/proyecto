@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Introducción a Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto se inició con [Create React App](https://github.com/facebook/create-react-app).
 
 # Dependencias a instalar
 
@@ -14,23 +14,6 @@ npm install react-scripts\
 npm install redux\
 npm install styled-components\
 npm install web-vitals
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Available Scripts
 

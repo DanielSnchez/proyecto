@@ -58,6 +58,8 @@ const Usuarios = ({
                 titulo={null}
                 mostrarHeader={false}
                 mostrarOverlay={true}
+                mostrarBotonCerrar={true}
+                overlayLogin={false}
             >
                 <TituloPost>
                     <h1>Posts</h1>
@@ -79,6 +81,8 @@ const Usuarios = ({
                 titulo={null}
                 mostrarHeader={false}
                 mostrarOverlay={true}
+                mostrarBotonCerrar={true}
+                overlayLogin={false}
             >
                 <TituloPost>
                     <h1>Album</h1>
@@ -122,7 +126,7 @@ const UsuariosStyled = styled.div`
         width: 100%;
         height: 160px;
         object-fit: cover;
-	border-radius: 800px;
+        border-radius: 800px;
         border: 1px solid black;
     }
 
@@ -136,14 +140,13 @@ const Card = styled.div`
 
 const Details = styled.div`
     padding: 1.5em;
-
 `
 const ContenedorBoton = styled.div`
 	display: inline-flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	gap: 20px;
-    	background: #fafafa;
+    background: #fafafa;
 `;
 
 

@@ -122,6 +122,8 @@ const UsuariosStyled = styled.div`
         width: 100%;
         height: 160px;
         object-fit: cover;
+	border-radius: 800px;
+        border: 1px solid black;
     }
 
 `

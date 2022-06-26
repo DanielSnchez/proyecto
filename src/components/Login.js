@@ -22,14 +22,12 @@ const Login = ({
         e.preventDefault();
         var txtUsuario = document.getElementById("txtUsuario").value;
         var txtPassword = document.getElementById("txtPassword").value;
-        //Este if se puede quitar porque no está funcionando
         if (txtUsuario.lenght === 0 || txtPassword.lenght === 0) {
             alert("Complete los datos")
         } else {
             if (txtUsuario === "eve.holt@reqres.in" && txtPassword === "cityslicka") {
                 setMiLogin("true")
                 document.getElementById("form_login").style.display = "none";
-
             } else {
                 setMiLogin("false")
                 alert("Error de email y/o contraseña")
@@ -84,6 +82,13 @@ const Login = ({
 export default Login
 
 
+			     
+			     
+			     
+			     
+			     
+			     
+			     
 const Input = styled.input`
   display: block;
   border-radius: 5px;
@@ -108,6 +113,7 @@ const Input = styled.input`
   `}
 `;
 
+			     
 const Button = Input.withComponent('button')
 
 

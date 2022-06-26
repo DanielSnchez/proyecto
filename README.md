@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Dependencias
+# Dependencias a instalar
 
 Para ejecutar el proyecto correctamente necesitarás instalar las siguientes dependencias:
 
@@ -14,6 +14,23 @@ npm install react-scripts\
 npm install redux\
 npm install styled-components\
 npm install web-vitals
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Available Scripts
 

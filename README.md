@@ -1,6 +1,6 @@
 # Para realizar login el único email y contraseña válidos son los siguientes:
 
-  Email: "eve.holt@reqres.in"
+  Email: "eve.holt@reqres.in"  /
   Contraseña: "cityslicka"
 
 # Introducción a Create React App

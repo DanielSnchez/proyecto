@@ -17,7 +17,6 @@ export default function App() {
   //Login
   const { register, handleSubmit, formState: { errors } } = useForm();
   const onSubmit = (evento) => console.log(evento);
-  //console.log(errors); //Mostrar en consola lo que está mal
 
   //Estado Posts
   const [estadoModal2, cambiarEstadoModal2] = useState(false);
@@ -50,17 +49,20 @@ export default function App() {
 
           <Contenido>
             <Login
+	      estado={estadoModal1}
+              cambiarEstado={cambiarEstadoModal1}
               register={register}
               handleSubmit={handleSubmit}
               onSubmit={onSubmit}
               errors={errors}
-            //email="eve.holt@reqres.in"
-            //contraseña="cityslicka"
             >
 
             </Login>
           </Contenido>
         </Modal>
+	<ContenedorBoton>
+          <Boton onClick={() => cambiarEstadoModal1(!estadoModal1)}>Log out</Boton>
+        </ContenedorBoton>
       </>
     </>
   );

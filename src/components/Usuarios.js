@@ -143,7 +143,7 @@ const ContenedorBoton = styled.div`
 	flex-wrap: wrap;
 	justify-content: center;
 	gap: 20px;
-    background: #fafafa;
+    	background: #fafafa;
 `;
 
 

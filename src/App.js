@@ -12,7 +12,7 @@ import PaginaInicial from './components/PaginaInicial'
 
 
 export default function App() {
-  const [estadoModal1, cambiarEstadoModal1] = useState(false);
+  const [estadoModal1, cambiarEstadoModal1] = useState(true);
 
   //Login
   const { register, handleSubmit, formState: { errors } } = useForm();
@@ -28,23 +28,17 @@ export default function App() {
   return (
     <>
       <ContenedorBoton>
-        <Boton onClick={() => cambiarEstadoModal1(!estadoModal1)}>Log in</Boton>
+        <Boton onClick={() => cambiarEstadoModal1(!estadoModal1)}>Log on</Boton>
       </ContenedorBoton>
       <>
-        <>
-          <PaginaInicial
-            estado2={estadoModal2}
-            cambiarEstado2={cambiarEstadoModal2}
-            estado3={estadoModal3}
-            cambiarEstado3={cambiarEstadoModal3}
-          />
-        </>
-        <Modal
+	<Modal
           estado={estadoModal1}
           cambiarEstado={cambiarEstadoModal1}
           titulo={null}
           mostrarHeader={false}
           mostrarOverlay={true}
+	  mostrarBotonCerrar={false}
+          overlayLogin={true}
         >
 
           <Contenido>
@@ -60,6 +54,14 @@ export default function App() {
             </Login>
           </Contenido>
         </Modal>
+        <>
+          <PaginaInicial
+            estado2={estadoModal2}
+            cambiarEstado2={cambiarEstadoModal2}
+            estado3={estadoModal3}
+            cambiarEstado3={cambiarEstadoModal3}
+          />
+        </>
 	<ContenedorBoton>
           <Boton onClick={() => cambiarEstadoModal1(!estadoModal1)}>Log out</Boton>
         </ContenedorBoton>

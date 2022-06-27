@@ -28,7 +28,7 @@ export default function App() {
   return (
     <>
       <ContenedorBoton>
-        <Boton onClick={() => cambiarEstadoModal1(!estadoModal1)}>Log on</Boton>
+        <Boton onClick={() => cambiarEstadoModal1(!estadoModal1)}>Log out</Boton>
       </ContenedorBoton>
       <>
 	<Modal
@@ -62,9 +62,6 @@ export default function App() {
             cambiarEstado3={cambiarEstadoModal3}
           />
         </>
-	<ContenedorBoton>
-          <Boton onClick={() => cambiarEstadoModal1(!estadoModal1)}>Log out</Boton>
-        </ContenedorBoton>
       </>
     </>
   );

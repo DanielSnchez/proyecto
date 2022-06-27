@@ -1,3 +1,10 @@
+# Dependencias a instalar
+
+Para ejecutar el proyecto correctamente necesitarás instalar las siguientes dependencias:
+
+npm install react\
+npm install react-scripts\
+
 # Para realizar login el único email y contraseña válidos son los siguientes:
 
   Email: "eve.holt@reqres.in"  \
@@ -7,22 +14,9 @@
 
 Este proyecto se inició con [Create React App](https://github.com/facebook/create-react-app).
 
-# Dependencias a instalar
+## Para comenzar
 
-Para ejecutar el proyecto correctamente necesitarás instalar las siguientes dependencias:
-
-npm install react\
-npm install react-bootstrap\
-npm install react-hook-form\
-npm install react-redux\
-npm install react-scripts\
-npm install redux\
-npm install styled-components\
-npm install web-vitals
-
-## Available Scripts
-
-In the project directory, you can run:
+Para poder visualizar este proyecto deberás entrar a una consola y ubicarte en la carpeta donde esté alojado el proyecto (una vez que ya lo hayas descargado claro), una vez ubicado en la correcta ubicación en la consola ejecutar el siguiente comando:
 
 ### `npm start`
 

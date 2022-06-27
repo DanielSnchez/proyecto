@@ -1,6 +1,10 @@
+#Importante
+
+Necesitará leer las siguientes tres secciones de este documento para poder visualizar correctamente el proyecto; instalar dependencias, ejecutar el servidor, ingresar con el correo y contraseña admitidos. 
+
 # Dependencias a instalar
 
-Para ejecutar el proyecto correctamente necesitarás instalar las siguientes dependencias:
+Para ejecutar el proyecto correctamente necesitarás instalar las siguientes dependencias, estas se instalan desde una consola y ubicado en el directorio donde esté alojado el proyecto:
 
 npm install react\
 npm install react-scripts\
@@ -10,15 +14,15 @@ npm install react-scripts\
   Email: "eve.holt@reqres.in"  \
   Contraseña: "cityslicka"
 
+## Para comenzar
+
+Para poder visualizar este proyecto deberás entrar a una consola y ubicarte en el directorio donde haya descargado el proyecto:
+
+### `npm start`
+
 # Introducción a Create React App
 
 Este proyecto se inició con [Create React App](https://github.com/facebook/create-react-app).
-
-## Para comenzar
-
-Para poder visualizar este proyecto deberás entrar a una consola y ubicarte en la carpeta donde esté alojado el proyecto (una vez que ya lo hayas descargado claro), una vez ubicado en la correcta ubicación en la consola ejecutar el siguiente comando:
-
-### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.

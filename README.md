@@ -14,7 +14,7 @@ npm install react-scripts\
   Email: "eve.holt@reqres.in"  \
   Contraseña: "cityslicka"
 
-## Para comenzar
+# Para comenzar
 
 Para poder visualizar este proyecto deberás entrar a una consola y ubicarte en el directorio donde haya descargado el proyecto:
 
